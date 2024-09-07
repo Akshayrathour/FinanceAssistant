@@ -1,0 +1,60 @@
+{"intents": [
+    {"tag": "greeting",
+      "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "Whats up", "Hey", "greetings"],
+      "responses": ["Hello!", "Good to see you again!", "Hi there, how can I help?"]
+    },
+    {"tag": "goodbye",
+      "patterns": ["cya", "See you later", "Goodbye", "I am Leaving", "Have a Good day", "bye", "cao", "see ya"],
+      "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!"]
+    },
+    {"tag": "programming",
+      "patterns": ["What is progamming?", "What is coding?", "Tell me about programming", "Tell me about coding", "What is software development?"],
+      "responses": ["Programming, coding or software development, means writing computer code to automate tasks."]
+    },
+    {"tag": "resource",
+      "patterns": ["Where do i get prices from", "what is your source of information", "Resources for stocks"],
+      "responses": ["yFinance is my source for information","there are various sources such as yfinace,Zerodha,tickertape etc."]
+    },
+    {"tag": "stocks",
+      "patterns": ["What are my stocks?", "Which stocks do I own?", "Show my stock portfolio","my total holdings","show my total stocks","Show all of my stocks"],
+      "responses": ["Here are your stocks!"]
+    },
+    {"tag": "plot_chart",
+      "patterns": ["show recent developomet in stock", "Plot a chart", "Plot a chart for the stock","Visualize the stock","show current market price"],
+      "responses": ["Plotting chart"]
+    },
+    {"tag": "Buy",
+      "patterns": ["Add a stock", "Buy a stock", "Add","Buy","Add to my portfolio","I bought a stock","Add to my list"],
+      "responses": ["Adding stocks!"]
+    },
+    {"tag": "Sell",
+      "patterns": ["Sell my stocks", "Remove stocks from my portfolio", "Remove","Sell","I sold a stock"],
+      "responses": ["Sell stocks!"]
+    },
+    {"tag": "help",
+      "patterns": ["I need some help", "can you help me", "can you assisst me"],
+      "responses": ["Ofcourse","How can i help you"]
+    },
+    {"tag": "worth",
+      "patterns": ["What is my net worth", "what is my total share price", "what is my current holdings","value of my stocks","estimate my worth"],
+      "responses": ["Here is your total worth"]
+    },
+    {"tag": "advice",
+      "patterns": ["i need some advice", "give me some advice", "how do i diversify my portfolio","what is the best time to sell","what is the best time to buy"],
+      "responses": ["Sure"]
+    },
+    {"tag": "gains",
+      "patterns": ["what are my total gains", "how much did i make", "how much did i lose"],
+      "responses": ["Here are your gains history"]
+    },
+    {"tag": "predict",
+      "patterns": ["predict the price of the stocks", "predict stock price", "estimate price of the stock","predict"],
+      "responses": ["predicting the price..."]
+    },
+    {"tag": "tips",
+      "patterns": ["give me some tips", "how does share market work"],
+      "responses": ["Share market is a place where you can invest in anything to get a percentage holding over it which may appreciate or depriciate with time."]
+    }
+
+  ]
+  }
